@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "image": "car-1.png",
+      "name": "Pongal",
+      "rating": 4
+    },
+    {
+      "id": 2,
+      "image": "car-2.png",
+      "name": "Idli",
+      "rating": 3
+    },
+    {
+      "id": 3,
+      "image": "car-3.png",
+      "name": "Puri",
+      "rating": 2
+    },
+    {
+      "id": 4,
+      "image": "car-4.png",
+      "name": "Dosa",
+      "rating": 2
+    },
+    {
+      "id": 5,
+      "image": "car-5.png",
+      "name": "Rice",
+      "rating": 4
+    },
+    {
+      "id": 6,
+      "image": "car-6.png",
+      "name": "Curry Rice",
+      "rating": 3
+    },
+    {
+      "id": 7,
+      "image": "car-7.png",
+      "name": "Chapathi",
+      "rating": 5
+    },
+    {
+      "id": 8,
+      "image": "car-8.png",
+      "name": "Panner Dosa",
+      "rating": 4
+    },
+    {
+      "id": 9,
+      "image": "car-9.png",
+      "name": "Muruku",
+      "rating": 3
+    },
+    {
+      "id": 10,
+      "image": "car-10.png",
+      "name": "Bajji",
+      "rating": 2
+    },
+    {
+      "id": 11,
+      "image": "car-11.png",
+      "name": "Samosa",
+      "rating": 4
+    },
+    {
+      "id": 12,
+      "image": "car-12.png",
+      "name": "Onion-Bajji",
+      "rating": 3
+    },
+    {
+      "id": 13,
+      "image": "car-13.png",
+      "name": "Potato-Bajji",
+      "rating": 3
+    },
+    {
+      "id": 14,
+      "image": "car-14.png",
+      "name": "MasalVada",
+      "rating": 5
+    },
+    {
+      "id": 15,
+      "image": "car-15.png",
+      "name": "Cutlet",
+      "rating": 4
+    }
+  ]
+  

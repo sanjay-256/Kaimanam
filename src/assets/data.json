@@ -1,0 +1,222 @@
+ [
+      {
+        "id": 1,
+        "name": "Idli",
+        "category": "breakfast", 
+        "rate": 30,
+        "description": "Steamed rice cakes, soft and fluffy, served with sambar and chutneys.",
+        "image": "/car-2.png",
+        "count":1,
+        "like":false
+      },
+      {
+        "id": 2,
+        "name": "Dosa",
+        "category": "breakfast",
+        "rate": 40,
+        "description": "Crispy fermented crepe made from rice and lentils, typically served with sambar and chutneys.",
+        "image": "/car-4.png",
+        "count":1,
+        "like":false
+      },
+      {
+        "id": 3,
+        "name": "Pongal",
+        "category": "breakfast",
+        "rate": 50,
+        "description": "A savory dish made with rice and yellow moong lentils, tempered with cumin, black pepper, and ghee.",
+        "image": "/car-1.png",
+        "count":1,
+        "like":false
+      },
+      {
+        "id": 4,
+        "name": "Vada",
+        "category": "breakfast",
+        "rate": 20,
+        "description": "Deep-fried savory fritters made from black gram batter, crispy and golden brown.",
+        "image": "/car-14.png",
+        "count":1,
+        "like":false
+      },
+      {
+        "id": 5,
+        "name": "Uttapam",
+        "category": "breakfast",
+        "rate": 35,
+        "description": "Thick pancake-like dish made from fermented rice and lentil batter, topped with onions and chilies.",
+        "image": "/car-5.png",
+        "count":1,
+        "like":false
+      },
+      {
+        "id": 6,
+        "name": "Sambar Rice",
+        "category": "lunch",
+        "rate": 60,
+        "description": "Rice mixed with sambar, a tangy and spicy lentil stew with vegetables.",
+        "image": "/car-3.png",
+        "count":1,
+        "like":false
+      },
+      {
+        "id": 7,
+        "name": "Biryani",
+        "category": "lunch",
+        "rate": 100,
+        "description": "Aromatic rice dish made with basmati rice, spices, and meat or vegetables.",
+        "image": "/car-6.png",
+        "count":1,
+        "like":false
+      },
+      {
+        "id": 8,
+        "name": "Rasam",
+        "category": "lunch",
+        "rate": 30,
+        "description": "Spicy and tangy soup made from tamarind, tomatoes, and spices, usually served with rice.",
+        "image": "/car-7.png",
+        "count":1,
+        "like":false
+      },
+      {
+        "id": 9,
+        "name": "Kootu",
+        "category": "lunch",
+        "rate": 50,
+        "description": "Thick lentil stew with vegetables, seasoned with coconut and spices.",
+        "image": "/car-8.png",
+        "count":1,
+        "like":false
+      },
+      {
+        "id": 10,
+        "name": "Puli Sadam",
+        "category": "lunch",
+        "rate": 45,
+        "description": "Tamarind rice, tangy and spicy, mixed with tamarind paste and spices.",
+        "image": "/car-9.png",
+        "count":1,
+        "like":false
+      },
+      {
+        "id": 11,
+        "name": "Curd Rice",
+        "category": "lunch",
+        "rate": 40,
+        "description": "Cooling dish made with rice mixed with yogurt, garnished with mustard seeds and curry leaves.",
+        "image": "/car-10.png",
+        "count":1,
+        "like":false
+      },
+      {
+        "id": 12,
+        "name": "Kothu Parotta",
+        "category": "dinner",
+        "rate": 70,
+        "description": "Chopped parotta stir-fried with vegetables, eggs, and spices.",
+        "image": "/car-11.png",
+        "count":1,
+        "like":false
+      },
+      {
+        "id": 13,
+        "name": "Idiyappam",
+        "category": "dinner",
+        "rate": 50,
+        "description": "Rice flour noodles, usually served with coconut milk and curry.",
+        "image": "/car-12.png",
+        "count":1,
+        "like":false
+      },
+      {
+        "id": 14,
+        "name": "Appam",
+        "category": "dinner",
+        "rate": 40,
+        "description": "Soft and lacy fermented rice pancakes, typically served with coconut milk or stew.",
+        "image": "/car-13.png",
+        "count":1,
+        "like":false
+      },
+      {
+        "id": 15,
+        "name": "Chettinad Chicken",
+        "category": "dinner",
+        "rate": 100,
+        "description": "Spicy and flavorful chicken curry made with a blend of spices, popular in Chettinad cuisine.",
+        "image": "/car-15.png",
+        "count":1,
+        "like":false
+      },
+      {
+        "id": 16,
+        "name": "Fish Curry",
+        "category": "dinner",
+        "rate": 150,
+        "description": "Tangy and spicy curry made with fish, tamarind, and a blend of spices.",
+        "image": "/car-16.png",
+        "count":1,
+        "like":false
+      },
+      {
+        "id": 21,
+        "name": "Vada",
+        "category": "snack",
+        "rate": 40,
+        "description": "A deep-fried savory fritter made from ground lentils, crispy on the outside and soft on the inside, typically served with chutney and sambar.",
+        "image": "/car-1.png",
+        "count": 1,
+        "like": false
+      },
+      {
+        "id": 22,
+        "name": "Potato Bajji",
+        "category": "snack",
+        "rate": 30,
+        "description": "Sliced potatoes dipped in a spiced chickpea flour batter and deep-fried until golden brown, often served with chutney.",
+        "image": "/car-2.png",
+        "count": 1,
+        "like": false
+      },
+      {
+        "id": 23,
+        "name": "Onion Bajji",
+        "category": "snack",
+        "rate": 35,
+        "description": "Thinly sliced onions coated in a spiced chickpea flour batter and deep-fried to perfection, making a crispy and flavorful snack.",
+        "image": "/car-3.png",
+        "count": 1,
+        "like": false
+      },
+      {
+        "id": 24,
+        "name": "Banana Bajji",
+        "category": "snack",
+        "rate": 30,
+        "description": "Slices of raw banana dipped in a spiced batter and deep-fried, resulting in a crispy and savory treat.",
+        "image": "/car-4.png",
+        "count": 1,
+        "like": false
+      },
+      {
+        "id": 25,
+        "name": "Mixture",
+        "category": "snack",
+        "rate": 50,
+        "description": "A spicy and crunchy mix of fried chickpea flour noodles, roasted nuts, and puffed rice, seasoned with spices.",
+        "image": "/car-5.png",
+        "count": 1,
+        "like": false
+      },
+      {
+        "id": 26,
+        "name": "Murukku",
+        "category": "snack",
+        "rate": 40,
+        "description": "A crunchy spiral-shaped snack made from rice flour and urad dal flour, seasoned with sesame seeds and spices.",
+        "image": "/car-6.png",
+        "count": 1,
+        "like": false
+      }
+    ]

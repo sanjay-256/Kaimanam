@@ -37,7 +37,7 @@ const Cart = () => {
   const getdata = async (e) => {
     if (data.length === 0) {
       alert("Select your food before placing an order");
-      return;
+      return; 
     }
     e.preventDefault();
 

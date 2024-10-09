@@ -46,7 +46,7 @@ const Cart = () => {
       id: item.id,
       name: item.name,
       count: item.count,
-      rate: item.amount
+      rate: item.amount,
     }));
 
     const payload = {

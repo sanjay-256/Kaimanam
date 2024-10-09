@@ -4,6 +4,7 @@ import { dataContext } from '../App';
 const Cart = () => {
   const { data, setData } = useContext(dataContext);
   const [total, setTotal] = useState(0);
+  
 
   useEffect(() => {
     // Calculate the total based on the current cart items

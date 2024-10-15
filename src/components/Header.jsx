@@ -15,7 +15,7 @@ const Header = ({count}) => {
         <div className='collapse navbar-collapse' id='navbar'>
         <ul className='navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold' >
             <li className="nav-item">
-              <Link className='nav-link' to="/"><i className="px-1 bi bi-house"/>HomE</Link>
+              <Link className='nav-link' to="/"><i className="px-1 bi bi-house"/>Home</Link>
             </li>
            <li className="nav-item">
             {/* <Link className='nav-link' to="/select"><i className="px-1 bi bi-cart4"/>Order</Link> */}

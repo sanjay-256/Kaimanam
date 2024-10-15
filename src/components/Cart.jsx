@@ -36,11 +36,12 @@ const Cart = () => {
   };
 
   const getdata = async (e) => {
+    
+    e.preventDefault();
     if (data.length === 0) {
       alert("Select your food before placing an order");
       return; 
     }
-    e.preventDefault();
 
     // Create a filtered array with only the required fields
     const filteredData = data.map(item => ({

@@ -4,7 +4,7 @@ import { dataContext } from '../App';
 const Cart = () => {
   const { data, setData } = useContext(dataContext);
   const [total, setTotal] = useState(0);
-  
+  const [loading, setLoading] = useState(false); // Add loading state
 
   useEffect(() => {
     // Calculate the total based on the current cart items
@@ -56,6 +56,7 @@ const Cart = () => {
     };
 
     try {
+      setLoading(true); // Set loading to true when the order is placed
       const response = await fetch('https://place-order-36d51-default-rtdb.firebaseio.com/UserData.json', {
         method: 'POST',
         headers: {
@@ -73,6 +74,8 @@ const Cart = () => {
     } catch (error) {
       console.error('Error:', error);
       alert('An error occurred while placing your order');
+    } finally {
+      setLoading(false); // Reset loading state
     }
   };
 
@@ -140,7 +143,13 @@ const Cart = () => {
       )}
       <div className='text-center fst-italic'>
         <h2 className='pb-5'>Total: ₹{total}</h2>
-        <button className='btn btn-outline-success border-2 fw-semibold mb-5' onClick={getdata}>Place Order</button>
+        <button 
+          className='btn btn-outline-success border-2 fw-semibold mb-5' 
+          onClick={getdata} 
+          disabled={loading} // Disable button while loading
+        >
+          {loading ? 'Placing Order...' : 'Place Order'} 
+        </button>
       </div>
     </>
   );

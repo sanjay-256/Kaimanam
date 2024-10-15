@@ -144,7 +144,7 @@ const Cart = () => {
       <div className='text-center fst-italic'>
         <h2 className='pb-5'>Total: ₹{total}</h2>
         <button 
-          className='btn btn-outline-success border-2 fw-semibold mb-5' 
+          className={`${loading?"btn btn-outline-warning":"btn btn-outline-success"} border-2 fw-semibold mb-5`} 
           onClick={getdata} 
           disabled={loading} // Disable button while loading
         >
